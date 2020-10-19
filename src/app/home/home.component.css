@@ -1,0 +1,18 @@
+.marg{
+
+    margin-top: 100px;
+
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 52px;
+}
+
+.marg2{
+    margin-top: -35px;
+}

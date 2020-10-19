@@ -1,0 +1,69 @@
+<div class="container">
+
+
+    <div class="container-fluid body-content">
+    
+        <div class="row "  >
+            <div [ngClass]="{'col':false, 'col-4':false} " >
+            </div>
+            <div class="col  marg"[ngClass]="{'col-4':false} " >
+                <app-formweathe (nomPayesoutput)="getPayes($event)" ></app-formweathe>
+    
+            </div>
+            
+    
+    <div class="col col-12  ">
+   
+    <div calss="table-striped marg2">
+
+    
+
+<div class="table-responsive">
+
+    <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Country</th>
+          <th scope="col">Region</th>
+          <th scope="col">LAT</th>
+          <th scope="col">LANG</th>
+          <th scope="col">Timezone</th>
+          <th scope="col">Localtime</th>
+          <th scope="col">Utc_offset</th>
+         
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr  class="success" >
+          <th scope="row">{{  1 }}</th>
+          <td > 
+            {{ Wservice.payesdetail.value.location.name }}
+          </td>
+          <td >{{ Wservice.payesdetail.value.location.country}}</td>
+          <td>{{ Wservice.payesdetail.value.location.region}}</td>
+          <td>{{ Wservice.payesdetail.value.location.lat | number }}</td>
+          <td>{{ Wservice.payesdetail.value.location.lon | number }}</td>
+          <td>{{ Wservice.payesdetail.value.location.timezone_id }}</td>
+          <td>{{ Wservice.payesdetail.value.location.localtime  }}</td>
+          <td>{{ Wservice.payesdetail.value.location.utc_offset|number  }}</td>
+          
+
+        </tr>
+        </tbody>
+      </table>
+</div>
+        
+      </div>
+        
+            
+        
+                   
+              
+              </div>
+                
+         
+        </div>
+   </div>     
