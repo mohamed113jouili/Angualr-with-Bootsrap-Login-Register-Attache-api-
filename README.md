@@ -1,6 +1,11 @@
 # Projecttest
 
 This project was generated with [Angular CLI]
+this is an example to learn how to use bootstrap with Angular
+
+ # project  login  and Register  in local  
+ # view users list, delete and edit 
+ # consume the api  (https://weatherstack.com/product)
 
 
 ##  Login interface 
