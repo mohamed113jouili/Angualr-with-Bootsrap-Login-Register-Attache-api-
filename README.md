@@ -1,6 +1,22 @@
 # Projecttest
 
 This project was generated with [Angular CLI]
+
+
+##  Login interface 
+![login](https://user-images.githubusercontent.com/61349826/96741947-48bb2080-13ba-11eb-84fc-babb40509867.png)
+
+## Login Eroor
+![loginError](https://user-images.githubusercontent.com/61349826/96742090-6b4d3980-13ba-11eb-896c-9d0d802cb31c.png)
+
+##  weathe-home interface (Get Payes By Name )
+![payes](https://user-images.githubusercontent.com/61349826/96742254-98015100-13ba-11eb-86f7-af5c9eed08ca.png)
+
+##  weathe-users interface (List Users Local Storage )
+
+![users](https://user-images.githubusercontent.com/61349826/96742282-9f285f00-13ba-11eb-87dd-7299d89f638b.png)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
